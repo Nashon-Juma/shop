@@ -7,7 +7,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/', '\Aimeos\Shop\Controller\CatalogController@homeAction')->name('aimeos_home');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/dashboard', function () { 
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
