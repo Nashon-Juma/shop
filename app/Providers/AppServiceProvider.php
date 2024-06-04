@@ -24,6 +24,6 @@ class AppServiceProvider extends ServiceProvider
                 return true;
             }
             return app( '\Aimeos\Shop\Base\Support' )->checkUserGroup( $user, $roles );
-        });
+        }); 
     }
 }
