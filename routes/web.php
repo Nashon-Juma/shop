@@ -27,7 +27,7 @@ Route::get('/product', function () {
 
 Route::get('/store', function () {
     return view('store');
-});
+}); 
 
 Route::get('/blank', function () {
     return view('blank');
