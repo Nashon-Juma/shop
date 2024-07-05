@@ -26,7 +26,6 @@ Route::get('/product', function () {
     return view('product');
 });
 
-
 Route::get('/store', function () {
     return view('store');
 });
