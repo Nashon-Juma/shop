@@ -23,7 +23,7 @@
 
         {!! view_render_event('bagisto.shop.components.layouts.header.desktop.bottom.logo.after') !!}
 
-        {!! view_render_event('bagisto.shop.components.layouts.header.desktop.bottom.category.before') !!}
+        {{-- {!! view_render_event('bagisto.shop.components.layouts.header.desktop.bottom.category.before') !!}
 
         <v-desktop-category>
             <div class="flex items-center gap-5">
@@ -44,7 +44,7 @@
             </div>
         </v-desktop-category>
 
-        {!! view_render_event('bagisto.shop.components.layouts.header.desktop.bottom.category.after') !!}
+        {!! view_render_event('bagisto.shop.components.layouts.header.desktop.bottom.category.after') !!} --}}
     </div>
 
     <!-- Right Nagivation Section -->
