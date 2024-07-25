@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'إضافة المرفقات',
-                'add-image'       => 'أضف صورة',
-            ],
+            'add-attachments' => 'إضافة المرفقات',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'اللغة الافتراضية',
+                        'offer'          => 'احصل على خصم يصل إلى 40٪ على طلبك الأول',
+                        'shop-now'       => 'تسوق الآن',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'العملات',
                     'locales'    => 'اللغات',
-                    'login'      => 'التسجيل أو تسجيل الدخول',
                 ],
             ],
 

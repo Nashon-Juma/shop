@@ -43,7 +43,6 @@ return [
         'view-all'         => 'Tümünü Görüntüle',
 
         'order-status-messages' => [
-            'all'             => 'Tümü',
             'canceled'        => 'Sipariş İptal Edildi',
             'closed'          => 'Sipariş Kapatıldı',
             'completed'       => 'Sipariş Tamamlandı',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'Etiket',
                 'multiselect'           => 'Çoklu Seçim',
                 'no'                    => 'Hayır',
-                'numeric'               => 'Sayı',
+                'number'                => 'Sayı',
                 'option-deleted'        => 'Seçenek başarıyla silindi',
                 'options'               => 'Seçenekler',
                 'position'              => 'Konum',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'Etiket',
                 'multiselect'           => 'Çoklu Seçim',
                 'no'                    => 'Hayır',
-                'numeric'               => 'Sayı',
+                'number'                => 'Sayı',
                 'option-deleted'        => 'Seçenek başarıyla silindi',
                 'options'               => 'Seçenekler',
                 'position'              => 'Konum',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Müşteri İncelemesine İzin Ver',
                         'allow-guest-review'    => 'Konuk İncelemesine İzin Ver',
-                        'display-review-count'  => 'Derecelendirmeler için inceleme sayısını görüntüleyin.',
-                        'display-star-count'    => 'Derecelendirmelerdeki yıldız sayısını görüntüleyin.',
-                        'summary'               => 'Özet',
                         'title'                 => 'İnceleme',
                         'title-info'            => 'Bir şeyin değerlendirilmesi veya değerlendirilmesi, genellikle görüşler ve geri bildirimler içeren bir değerlendirme sürecidir.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Fatura Başlığında Fatura Kimliği\'nin görüntülenmesini yapılandırın.',
                         'invoice-id-title' => 'Başlıkta Fatura Kimliği\'ni Göster',
                         'logo'             => 'Logo',
-                        'logo-info'        => 'Görüntü çözünürlüğü 131px X 30px olmalıdır.',
                         'order-id-info'    => 'Fatura Başlığında Sipariş Kimliği\'nin görüntülenmesini yapılandırın.',
                         'order-id-title'   => 'Başlıkta Sipariş Kimliği\'ni Göster',
                         'title'            => 'PDF Yazdırmaları',

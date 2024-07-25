@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'افزودن پیوست',
-                'add-image'       => 'افزودن تصویر',
-            ],
+            'add-attachments' => 'افزودن پیوست',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'زبان پیش فرض',
+                        'offer'          => 'تا 40٪ تخفیف بر روی سفارش اول خود بگیرید',
+                        'shop-now'       => 'اکنون خرید کنید',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'واحد پول',
                     'locales'    => 'زبان و محل',
-                    'login'      => 'ثبت‌نام یا ورود',
                 ],
             ],
 

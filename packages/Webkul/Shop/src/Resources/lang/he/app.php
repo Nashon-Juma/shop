@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'הוסף קבצים מצורפים',
-                'add-image'       => 'הוסף תמונה',
-            ],
+            'add-attachments' => 'הוסף קבצים מצורפים',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'שפת ברירת המחדל',
+                        'offer'          => 'קבל עד 40% הנחה על הזמנתך הראשונה',
+                        'shop-now'       => 'קנה עכשיו',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'מטבעות',
                     'locales'    => 'אזורים',
-                    'login'      => ' הרשם או התחבר',
                 ],
             ],
 

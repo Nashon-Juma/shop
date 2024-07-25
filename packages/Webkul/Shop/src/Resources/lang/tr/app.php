@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'Ek Dosyalar Ekle',
-                'add-image'       => 'Resim ekle',
-            ],
+            'add-attachments' => 'Ek Dosyalar Ekle',
         ],
 
         'layouts' => [
@@ -417,14 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'Varsayılan dil',
+                        'offer'          => 'İlk siparişinizde %40\'a varan İNDİRİM alın',
+                        'shop-now'       => 'ŞİMDİ ALIŞVERİŞ YAP',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'Para Birimleri',
                     'locales'    => 'Yerel Ayarlar',
-                    'login'      => 'Kaydol veya Giriş yap
-',
                 ],
             ],
 

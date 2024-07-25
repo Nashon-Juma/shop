@@ -43,7 +43,6 @@ return [
         'view-all'         => 'Alles Bekijken',
 
         'order-status-messages' => [
-            'all'             => 'Alles',
             'canceled'        => 'Bestelling Geannuleerd',
             'closed'          => 'Bestelling Gesloten',
             'completed'       => 'Bestelling Voltooid',
@@ -1112,7 +1111,7 @@ return [
                 'label'                   => 'Label',
                 'multiselect'             => 'Meerdere selectie',
                 'no'                      => 'Nee',
-                'numeric'                 => 'Nummer',
+                'number'                  => 'Nummer',
                 'option-deleted'          => 'Optie succesvol verwijderd',
                 'options'                 => 'Opties',
                 'position'                => 'Positie',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'Label',
                 'multiselect'           => 'Meerdere selectie',
                 'no'                    => 'Nee',
-                'numeric'               => 'Nummer',
+                'number'                => 'Nummer',
                 'option-deleted'        => 'Optie succesvol verwijderd',
                 'options'               => 'Opties',
                 'position'              => 'Positie',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Klantbeoordeling toestaan',
                         'allow-guest-review'    => 'Gastbeoordeling toestaan',
-                        'display-review-count'  => 'Geef het aantal recensies voor beoordelingen weer.',
-                        'display-star-count'    => 'Geef het aantal sterren in beoordelingen weer.',
-                        'summary'               => 'Samenvatting',
                         'title'                 => 'Beoordeling',
                         'title-info'            => 'Evaluatie of beoordeling van iets, vaak met meningen en feedback.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Configureer de weergave van het factuurnummer in de factuurkop.',
                         'invoice-id-title' => 'Toon factuurnummer in koptekst',
                         'logo'             => 'Logo',
-                        'logo-info'        => 'De resolutie van de afbeelding moet ongeveer 131px x 30px zijn.',
                         'order-id-info'    => 'Configureer de weergave van het bestelnummer in de factuurkop.',
                         'order-id-title'   => 'Toon bestelnummer in koptekst',
                         'title'            => 'PDF-afdrukken',

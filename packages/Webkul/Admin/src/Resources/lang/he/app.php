@@ -43,7 +43,6 @@ return [
         'view-all'         => 'הצג הכל',
 
         'order-status-messages' => [
-            'all'             => 'הכל',
             'canceled'        => 'הזמנה בוטלה',
             'closed'          => 'הזמנה נסגרה',
             'completed'       => 'הזמנה הושלמה',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'תווית',
                 'multiselect'           => 'בחירה מרובה',
                 'no'                    => 'לא',
-                'numeric'               => 'מספר',
+                'number'                => 'מספר',
                 'option-deleted'        => 'אפשרות נמחקה בהצלחה',
                 'options'               => 'אפשרויות',
                 'position'              => 'מיקום',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'תווית',
                 'multiselect'           => 'בחירה מרובה',
                 'no'                    => 'לא',
-                'numeric'               => 'מספר',
+                'number'                => 'מספר',
                 'option-deleted'        => 'אפשרות נמחקה בהצלחה',
                 'options'               => 'אפשרויות',
                 'position'              => 'מיקום',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'אפשר ביקורת מלקוח',
                         'allow-guest-review'    => 'אפשר ביקורת מאורח',
-                        'display-review-count'  => 'הצג את ספירת הביקורות עבור דירוגים.',
-                        'display-star-count'    => 'הצג את ספירת הכוכבים בדירוגים.',
-                        'summary'               => 'סיכום',
                         'title'                 => 'ביקורת',
                         'title-info'            => 'הערכה או הערכה של משהו, הכוללת לעיתים דעות ומשוב.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'הגדרת הצגת מזהה חשבונית בכותרת החשבונית.',
                         'invoice-id-title' => 'הצג מזהה חשבונית בכותרת',
                         'logo'             => 'לוגו',
-                        'logo-info'        => 'רזולוציית התמונה צריכה להיות 131px X 30px.',
                         'order-id-info'    => 'הגדרת הצגת מזהה הזמנה בכותרת החשבונית.',
                         'order-id-title'   => 'הצג מזהה הזמנה בכותרת',
                         'title'            => 'הדפסת PDF',

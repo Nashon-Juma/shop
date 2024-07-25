@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'Ajouter des pièces jointes',
-                'add-image'       => 'Ajouter une image',
-            ],
+            'add-attachments' => 'Ajouter des pièces jointes',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'Langue par défaut',
+                        'offer'          => 'Obtenez JUSQU\'À 40% DE RÉDUCTION sur votre 1ère commande',
+                        'shop-now'       => 'ACHETER MAINTENANT',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'Devises',
                     'locales'    => 'Langues',
-                    'login'      => 'S\'inscrire ou Se connecter',
                 ],
             ],
 

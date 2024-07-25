@@ -305,7 +305,7 @@ class Installer extends Command
         $databaseDetails = [
             'DB_CONNECTION' => select(
                 label   : 'Please select the database connection',
-                options : ['mysql'],
+                options : ['mysql', 'pgsql', 'sqlsrv'],
                 default : 'mysql',
             ),
 

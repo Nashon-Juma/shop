@@ -43,7 +43,6 @@ return [
         'view-all'         => 'Zobacz wszystkie',
 
         'order-status-messages' => [
-            'all'             => 'Wszystko',
             'canceled'        => 'Zamówienie anulowane',
             'closed'          => 'Zamówienie zamknięte',
             'completed'       => 'Zamówienie zakończone',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'Etykieta',
                 'multiselect'           => 'Wielokrotny Wybór',
                 'no'                    => 'Nie',
-                'numeric'               => 'Liczba',
+                'number'                => 'Liczba',
                 'option-deleted'        => 'Opcja usunięta pomyślnie',
                 'options'               => 'Opcje',
                 'position'              => 'Pozycja',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'Etykieta',
                 'multiselect'           => 'Wielokrotny Wybór',
                 'no'                    => 'Nie',
-                'numeric'               => 'Liczba',
+                'number'                => 'Liczba',
                 'option-deleted'        => 'Opcja usunięta pomyślnie',
                 'options'               => 'Opcje',
                 'position'              => 'Pozycja',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Zezwalaj na recenzje klientów',
                         'allow-guest-review'    => 'Zezwalaj na recenzje gości',
-                        'display-review-count'  => 'Wyświetl liczbę recenzji dla ocen.',
-                        'display-star-count'    => 'Wyświetl liczbę gwiazdek w ocenach.',
-                        'summary'               => 'Streszczenie',
                         'title'                 => 'Recenzja',
                         'title-info'            => 'Ocena lub ocena czegoś, często obejmująca opinie i informacje zwrotne.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Skonfiguruj wyświetlanie identyfikatora faktury w nagłówku faktury.',
                         'invoice-id-title' => 'Wyświetl identyfikator faktury w nagłówku',
                         'logo'             => 'Logo',
-                        'logo-info'        => 'Rozdzielczość obrazu powinna wynosić 131px x 30px.',
                         'order-id-info'    => 'Skonfiguruj wyświetlanie identyfikatora zamówienia w nagłówku faktury.',
                         'order-id-title'   => 'Wyświetl identyfikator zamówienia w nagłówku',
                         'title'            => 'Wydruki PDF',

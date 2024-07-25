@@ -43,7 +43,6 @@ return [
         'view-all'         => '查看全部',
 
         'order-status-messages' => [
-            'all'             => '全部',
             'canceled'        => '订单已取消',
             'closed'          => '订单已关闭',
             'completed'       => '订单已完成',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => '标签',
                 'multiselect'           => '多选',
                 'no'                    => '否',
-                'numeric'               => '数字',
+                'number'                => '数字',
                 'option-deleted'        => '选项删除成功',
                 'options'               => '选项',
                 'position'              => '位置',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => '标签',
                 'multiselect'           => '多选',
                 'no'                    => '否',
-                'numeric'               => '数字',
+                'number'                => '数字',
                 'option-deleted'        => '选项删除成功',
                 'options'               => '选项',
                 'position'              => '位置',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => '允许客户评价',
                         'allow-guest-review'    => '允许访客评价',
-                        'display-review-count'  => '显示评级的评论计数。',
-                        'display-star-count'    => '显示评分中的星级数。',
-                        'summary'               => '概括',
                         'title'                 => '评价',
                         'title-info'            => '对某物进行评估或评价，通常涉及意见和反馈。',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => '請求書ヘッダーに請求書IDを表示するかを設定します。',
                         'invoice-id-title' => 'ヘッダーに請求書IDを表示',
                         'logo'             => 'ロゴ',
-                        'logo-info'        => '图像分辨率应为 131px X 30px。',
                         'order-id-info'    => '請求書ヘッダーに注文IDを表示するかを設定します。',
                         'order-id-title'   => 'ヘッダーに注文IDを表示',
                         'title'            => 'PDFプリントアウト',

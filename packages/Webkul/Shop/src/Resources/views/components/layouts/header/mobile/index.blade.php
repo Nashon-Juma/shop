@@ -50,7 +50,7 @@
                                 href="{{ route('shop.customer.session.create') }}"
                                 class="flex text-base font-medium"
                             >
-                                @lang('shop::app.components.layouts.header.mobile.login')
+                                @lang('Sign up or Login')
 
                                 <i class="icon-double-arrow text-2xl ltr:ml-2.5 rtl:mr-2.5"></i>
                             </a>
@@ -271,7 +271,7 @@
         </label>
 
         <div class="relative w-full">
-            <div class="icon-search pointer-events-none absolute top-3 flex items-center text-2xl max-md:text-xl max-sm:top-2.5 ltr:left-3 rtl:right-3"></div>
+            <div class="icon-search pointer-events-none absolute top-3 flex items-center text-2xl max-md:text-xl max-sm:top-2 ltr:left-3 rtl:right-3"></div>
 
             <input
                 type="text"
@@ -408,12 +408,7 @@
 
                         <!-- Drawer Content -->
                         <x-slot:content class="!px-0">
-                            <div
-                                class="overflow-auto"
-                                :style="{ height: getCurrentScreenHeight }"
-                            >
-                                <v-currency-switcher></v-currency-switcher>
-                            </div>
+                            <v-currency-switcher></v-currency-switcher>
                         </x-slot>
                     </x-shop::drawer>
 
@@ -457,12 +452,7 @@
 
                         <!-- Drawer Content -->
                         <x-slot:content class="!px-0">
-                            <div
-                                class="overflow-auto"
-                                :style="{ height: getCurrentScreenHeight }"
-                            >
-                                <v-locale-switcher></v-locale-switcher>
-                            </div>
+                            <v-locale-switcher></v-locale-switcher>
                         </x-slot>
                     </x-shop::drawer>
                 </div>
@@ -482,12 +472,6 @@
 
             mounted() {
                 this.get();
-            },
-
-            computed: {
-                getCurrentScreenHeight() {
-                    return window.innerHeight - (window.innerWidth < 920 ? 61 : 0) + 'px';
-                },
             },
 
             methods: {

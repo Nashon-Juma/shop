@@ -43,7 +43,6 @@ return [
         'view-all'         => 'مشاهده همه',
 
         'order-status-messages' => [
-            'all'             => 'همه',
             'canceled'        => 'سفارش کنسل شده',
             'closed'          => 'سفارش بسته شده',
             'completed'       => 'سفارش تکمیل شده',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'برچسب',
                 'multiselect'           => 'چندانتخابی',
                 'no'                    => 'خیر',
-                'numeric'               => 'عدد',
+                'number'                => 'عدد',
                 'option-deleted'        => 'گزینه با موفقیت حذف شد',
                 'options'               => 'گزینه ها',
                 'position'              => 'موقعیت',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'برچسب',
                 'multiselect'           => 'چندانتخابی',
                 'no'                    => 'خیر',
-                'numeric'               => 'عدد',
+                'number'                => 'عدد',
                 'option-deleted'        => 'گزینه با موفقیت حذف شد',
                 'options'               => 'گزینه ها',
                 'position'              => 'موقعیت',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'اجازه بررسی مشتری',
                         'allow-guest-review'    => 'اجازه بررسی مهمان',
-                        'display-review-count'  => 'نمایش تعداد بررسی برای رتبه بندی.',
-                        'display-star-count'    => 'نمایش تعداد ستاره در رتبه بندی.',
-                        'summary'               => 'خلاصه',
                         'title'                 => 'بررسی',
                         'title-info'            => 'ارزیابی یا ارزیابی چیزی، معمولاً شامل نظرات و بازخوردها است.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'پیکربندی نمایش شناسه فاکتور در هدر فاکتور.',
                         'invoice-id-title' => 'نمایش شناسه فاکتور در هدر',
                         'logo'             => 'لوگو',
-                        'logo-info'        => 'وضوح تصویر باید حدود 131 پیکسل × 30 پیکسل باشد.',
                         'order-id-info'    => 'پیکربندی نمایش شناسه سفارش در هدر فاکتور.',
                         'order-id-title'   => 'نمایش شناسه سفارش در هدر',
                         'title'            => 'چاپ PDF',

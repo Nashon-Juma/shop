@@ -43,7 +43,6 @@ return [
         'view-all'              => 'View All',
 
         'order-status-messages' => [
-            'all'             => 'All',
             'canceled'        => 'Order Canceled',
             'closed'          => 'Order Closed',
             'completed'       => 'Order Completed',
@@ -1113,7 +1112,7 @@ return [
                 'label'                 => 'Label',
                 'multiselect'           => 'Multiselect',
                 'no'                    => 'No',
-                'numeric'               => 'Number',
+                'number'                => 'Number',
                 'options'               => 'Options',
                 'position'              => 'Position',
                 'price'                 => 'Price',
@@ -1178,7 +1177,7 @@ return [
                 'label'                 => 'Label',
                 'multiselect'           => 'Multiselect',
                 'no'                    => 'No',
-                'numeric'               => 'Number',
+                'number'                => 'Number',
                 'options'               => 'Options',
                 'position'              => 'Position',
                 'price'                 => 'Price',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Allow Customer Review',
                         'allow-guest-review'    => 'Allow Guest Review',
-                        'display-review-count'  => 'Display the review count for ratings.',
-                        'display-star-count'    => 'Display the star count in ratings.',
-                        'summary'               => 'Summary',
                         'title'                 => 'Review',
                         'title-info'            => 'Evaluation or assessment of something, often involving opinions and feedback.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Configure display of Invoice ID in Invoice Header.',
                         'invoice-id-title' => 'Display Invoice ID in Header',
                         'logo'             => 'Logo',
-                        'logo-info'        => 'Image resolution should be like 131px X 30px.',
                         'order-id-info'    => 'Configure display of Order ID in Invoice Header.',
                         'order-id-title'   => 'Display Order ID in Header',
                         'title'            => 'PDF Print Outs',

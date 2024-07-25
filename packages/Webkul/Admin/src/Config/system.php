@@ -599,20 +599,6 @@ return [
                 'title'   => 'admin::app.configuration.index.catalog.products.review.allow-customer-review',
                 'type'    => 'boolean',
                 'default' => true,
-            ], [
-                'name'    => 'summary',
-                'title'   => 'admin::app.configuration.index.catalog.products.review.summary',
-                'type'    => 'select',
-                'default' => 'review_counts',
-                'options' => [
-                    [
-                        'title' => 'admin::app.configuration.index.catalog.products.review.display-star-count',
-                        'value' => 'star_counts',
-                    ], [
-                        'title' => 'admin::app.configuration.index.catalog.products.review.display-review-count',
-                        'value' => 'review_counts',
-                    ],
-                ],
             ],
         ],
     ], [
@@ -1841,7 +1827,6 @@ return [
             ], [
                 'name'          => 'logo',
                 'title'         => 'admin::app.configuration.index.sales.invoice-settings.pdf-print-outs.logo',
-                'info'          => 'admin::app.configuration.index.sales.invoice-settings.pdf-print-outs.logo-info',
                 'type'          => 'image',
                 'validation'    => 'mimes:bmp,jpeg,jpg,png,webp',
                 'channel_based' => true,

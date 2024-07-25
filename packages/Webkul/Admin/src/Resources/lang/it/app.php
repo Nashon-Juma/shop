@@ -43,7 +43,6 @@ return [
         'view-all'         => 'Visualizza Tutte',
 
         'order-status-messages' => [
-            'all'             => 'Tutti',
             'canceled'        => 'Ordine Annullato',
             'closed'          => 'Ordine Chiuso',
             'completed'       => 'Ordine Completato',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'Etichetta',
                 'multiselect'           => 'Selezione Multipla',
                 'no'                    => 'No',
-                'numeric'               => 'Numero',
+                'number'                => 'Numero',
                 'option-deleted'        => 'Opzione eliminata con successo',
                 'options'               => 'Opzioni',
                 'position'              => 'Posizione',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'Etichetta',
                 'multiselect'           => 'Selezione Multipla',
                 'no'                    => 'No',
-                'numeric'               => 'Numero',
+                'number'                => 'Numero',
                 'option-deleted'        => 'Opzione eliminata con successo',
                 'options'               => 'Opzioni',
                 'position'              => 'Posizione',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Consenti recensioni dei clienti',
                         'allow-guest-review'    => 'Consenti recensioni degli ospiti',
-                        'display-review-count'  => 'Visualizza il numero di revisioni per le valutazioni.',
-                        'display-star-count'    => 'Visualizza il numero di stelle nelle valutazioni.',
-                        'summary'               => 'Riepilogo',
                         'title'                 => 'Recensione',
                         'title-info'            => 'Valutazione o valutazione di qualcosa, spesso coinvolgendo opinioni e feedback.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Configura la visualizzazione dell\'ID Fattura nell\'Intestazione della Fattura.',
                         'invoice-id-title' => 'Visualizza ID Fattura nell\'Intestazione',
                         'logo'             => 'Logo',
-                        'logo-info'        => 'La risoluzione dell\'immagine dovrebbe essere di 131px X 30px.',
                         'order-id-info'    => 'Configura la visualizzazione dell\'ID Ordine nell\'Intestazione della Fattura.',
                         'order-id-title'   => 'Visualizza ID Ordine nell\'Intestazione',
                         'title'            => 'Stampa PDF',

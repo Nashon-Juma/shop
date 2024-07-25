@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'Bijlagen toevoegen',
-                'add-image'       => 'Afbeelding toevoegen',
-            ],
+            'add-attachments' => 'Bijlagen toevoegen',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'Standaardtaal',
+                        'offer'          => 'Krijg TOT 40% KORTING op je 1e bestelling',
+                        'shop-now'       => 'KOOP NU',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'Valuta',
                     'locales'    => 'Taal',
-                    'login'      => 'Registreren of Inloggen',
                 ],
             ],
 

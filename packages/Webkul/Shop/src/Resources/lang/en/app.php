@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'Add attachments',
-                'add-image'       => 'Add image',
-            ],
+            'add-attachments' => 'Add attachments',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'Default locale',
+                        'offer'          => 'Get UPTO 40% OFF on your 1st order',
+                        'shop-now'       => 'SHOP NOW',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'Currencies',
                     'locales'    => 'Locales',
-                    'login'      => 'Sign up or Login',
                 ],
             ],
 

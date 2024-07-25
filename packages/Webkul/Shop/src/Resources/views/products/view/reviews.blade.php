@@ -183,8 +183,7 @@
                                     </div>
 
                                     <p class="text-base text-zinc-500 max-sm:text-sm">
-                                        {{ $reviewHelper->getTotalFeedback($product) }}
-
+                                        {{ $reviewHelper->getTotalRating($product) }}
                                         @lang('shop::app.products.view.reviews.ratings')
                                     </p>
                                 </div>

@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => '添加附件',
-                'add-image'       => '添加图片',
-            ],
+            'add-attachments' => '添加附件',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => '默认区域设置',
+                        'offer'          => '首次订单最高可享受40%折扣',
+                        'shop-now'       => '立即购买',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => '货币',
                     'locales'    => '语言',
-                    'login'      => '注册或登录',
                 ],
             ],
 

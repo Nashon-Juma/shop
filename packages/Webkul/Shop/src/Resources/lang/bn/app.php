@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'সংযুক্তি যোগ করুন',
-                'add-image'       => 'চিত্র যোগ করুন',
-            ],
+            'add-attachments' => 'সংযুক্তি যোগ করুন',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'ডিফল্ট লোকেল',
+                        'offer'          => 'আপনার ১ম অর্ডারে ৪০% ছাড়',
+                        'shop-now'       => 'এখনই কিনুন',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'মুদ্রা',
                     'locales'    => 'লোকেল',
-                    'login'      => 'নিবন্ধন করুন বা লগইন করুন',
                 ],
             ],
 

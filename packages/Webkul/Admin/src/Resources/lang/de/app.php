@@ -43,7 +43,6 @@ return [
         'view-all'         => 'Alle anzeigen',
 
         'order-status-messages' => [
-            'all'             => 'Alle',
             'canceled'        => 'Bestellung storniert',
             'closed'          => 'Bestellung geschlossen',
             'completed'       => 'Bestellung abgeschlossen',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'Bezeichnung',
                 'multiselect'           => 'Multiselect',
                 'no'                    => 'Nein',
-                'numeric'               => 'Nummer',
+                'number'                => 'Nummer',
                 'option-deleted'        => 'Option erfolgreich gelöscht',
                 'options'               => 'Optionen',
                 'position'              => 'Position',
@@ -1177,7 +1176,7 @@ return [
                 'label'                 => 'Label',
                 'multiselect'           => 'Mehrfachauswahl',
                 'no'                    => 'Nein',
-                'numeric'               => 'Nummer',
+                'number'                => 'Nummer',
                 'option-deleted'        => 'Option erfolgreich gelöscht',
                 'options'               => 'Optionen',
                 'position'              => 'Position',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Kundenbewertungen zulassen',
                         'allow-guest-review'    => 'Gastbewertungen zulassen',
-                        'display-review-count'  => 'Zeigen Sie die Anzahl der Rezensionen für Bewertungen an.',
-                        'display-star-count'    => 'Zeigen Sie die Anzahl der Sterne in Bewertungen an.',
-                        'summary'               => 'Zusammenfassung',
                         'title'                 => 'Bewertung',
                         'title-info'            => 'Bewertung oder Einschätzung von etwas, oft mit Meinungen und Feedback.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Konfigurieren Sie die Anzeige der Rechnungs-ID im Rechnungskopf.',
                         'invoice-id-title' => 'Rechnungs-ID im Header anzeigen',
                         'logo'             => 'Logo',
-                        'logo-info'        => 'Die Bildauflösung sollte etwa 131px x 30px betragen.',
                         'order-id-info'    => 'Konfigurieren Sie die Anzeige der Bestell-ID im Rechnungskopf.',
                         'order-id-title'   => 'Bestell-ID im Header anzeigen',
                         'title'            => 'PDF-Druckausgaben',

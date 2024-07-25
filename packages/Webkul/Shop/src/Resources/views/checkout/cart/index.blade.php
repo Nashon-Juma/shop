@@ -59,13 +59,9 @@
 
             {!! view_render_event('bagisto.shop.checkout.cart.breadcrumbs.after') !!}
 
-            @php
-                $errors = Cart::getErrors();
-            @endphp
-            
-            @if (! empty($errors) && $errors['error_code'] === 'MINIMUM_ORDER_AMOUNT')
+            @if ($errors = Cart::getErrors())
                 <div class="mt-5 w-full gap-12 rounded-lg bg-[#FFF3CD] px-5 py-3 text-[#383D41] max-sm:px-3 max-sm:py-2 max-sm:text-sm">
-                    {{ $errors['message'] }}: {{ $errors['amount'] }}
+                    {{ implode(": ", Cart::getErrors()) }}
                 </div>
             @endif
 

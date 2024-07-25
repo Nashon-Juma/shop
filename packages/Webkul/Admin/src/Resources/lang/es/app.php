@@ -43,7 +43,6 @@ return [
         'view-all'         => 'Ver Todas',
 
         'order-status-messages' => [
-            'all'             => 'Todos',
             'canceled'        => 'Pedido Cancelado',
             'closed'          => 'Pedido Cerrado',
             'completed'       => 'Pedido Completado',
@@ -1112,7 +1111,7 @@ return [
                 'label'                 => 'Etiqueta',
                 'multiselect'           => 'Selección Múltiple',
                 'no'                    => 'No',
-                'numeric'               => 'Número',
+                'number'                => 'Número',
                 'option-deleted'        => 'Opción eliminada exitosamente',
                 'options'               => 'Opciones',
                 'position'              => 'Posición',
@@ -1177,7 +1176,7 @@ return [
                 'label'                  => 'Etiqueta',
                 'multiselect'            => 'Selección Múltiple',
                 'no'                     => 'No',
-                'numeric'                => 'Número',
+                'number'                 => 'Número',
                 'option-deleted'         => 'Opción eliminada exitosamente',
                 'options'                => 'Opciones',
                 'position'               => 'Posición',
@@ -3561,9 +3560,6 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Permitir reseñas de clientes',
                         'allow-guest-review'    => 'Permitir reseñas de invitados',
-                        'display-review-count'  => 'Muestra el recuento de reseñas para las calificaciones.',
-                        'display-star-count'    => 'Muestra el recuento de estrellas en las calificaciones.',
-                        'summary'               => 'Resumen',
                         'title'                 => 'Reseña',
                         'title-info'            => 'Evaluación o valoración de algo, a menudo involucrando opiniones y comentarios.',
                     ],
@@ -3927,7 +3923,6 @@ return [
                         'invoice-id-info'  => 'Configurar la visualización del ID de la factura en el encabezado de la factura.',
                         'invoice-id-title' => 'Mostrar ID de factura en el encabezado',
                         'logo'             => 'Logotipo',
-                        'logo-info'        => 'La resolución de la imagen debe ser de 131px X 30px.',
                         'order-id-info'    => 'Configurar la visualización del ID del pedido en el encabezado de la factura.',
                         'order-id-title'   => 'Mostrar ID de pedido en el encabezado',
                         'title'            => 'Impresiones en PDF',

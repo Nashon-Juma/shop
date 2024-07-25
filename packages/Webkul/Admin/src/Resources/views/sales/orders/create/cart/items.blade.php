@@ -122,7 +122,7 @@
                                 >
                                     <!-- Details Toggler -->
                                     <p
-                                        class="flex cursor-pointer items-center gap-1 text-sm text-gray-800 dark:text-white"
+                                        class="flex cursor-pointer items-center gap-1 text-sm"
                                         @click="item.option_show = ! item.option_show"
                                     >
                                         @lang('admin::app.sales.orders.create.cart.items.see-details')
@@ -138,11 +138,11 @@
                                         v-show="item.option_show"
                                     >
                                         <div v-for="option in item.options">
-                                            <p class="text-sm text-gray-600 dark:text-white">
+                                            <p class="text-sm text-gray-600">
                                                 @{{ option.attribute_name + ':' }}
                                             </p>
 
-                                            <p class="text-sm font-medium text-gray-800 dark:text-white">
+                                            <p class="text-sm font-medium text-gray-800">
                                                 @{{ option.option_label }}
                                             </p>
                                         </div>

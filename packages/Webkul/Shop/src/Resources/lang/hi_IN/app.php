@@ -387,10 +387,7 @@ return [
         ],
 
         'media' => [
-            'index' => [
-                'add-attachments' => 'अटैचमेंट जोड़ें',
-                'add-image'       => 'छवि जोड़ें',
-            ],
+            'add-attachments' => 'अटैचमेंट जोड़ें',
         ],
 
         'layouts' => [
@@ -417,13 +414,14 @@ return [
                 'desktop' => [
                     'top' => [
                         'default-locale' => 'डिफ़ॉल्ट भाषा',
+                        'offer'          => 'अपने पहले ऑर्डर पर उपयोग करें 40% तक का छूट',
+                        'shop-now'       => 'अभी खरीदें',
                     ],
                 ],
 
                 'mobile' => [
                     'currencies' => 'मुद्रा',
                     'locales'    => 'स्थान',
-                    'login'      => 'साइन अप या लॉगिन करें',
                 ],
             ],
 
