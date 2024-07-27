@@ -130,9 +130,9 @@ return [
         'core' => [
             'channels' => [
                 'name'             => 'Standard',
-                'meta-title'       => 'Demo-Shop',
-                'meta-keywords'    => 'Demo-Shop Meta-Stichwörter',
-                'meta-description' => 'Demo-Shop Meta-Beschreibung',
+                'meta-title'       => 'Shop',
+                'meta-keywords'    => 'Shop Meta-Stichwörter',
+                'meta-description' => 'Shop Meta-Beschreibung',
             ],
 
             'currencies' => [

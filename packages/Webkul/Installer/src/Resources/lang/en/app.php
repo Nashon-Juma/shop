@@ -130,9 +130,9 @@ return [
         'core' => [
             'channels' => [
                 'name'             => 'Default',
-                'meta-title'       => 'Demo store',
-                'meta-keywords'    => 'Demo store meta keyword',
-                'meta-description' => 'Demo store meta description',
+                'meta-title'       => 'Hub of teens',
+                'meta-keywords'    => 'Hub of teens',
+                'meta-description' => 'Hub of teens',
             ],
 
             'currencies' => [
