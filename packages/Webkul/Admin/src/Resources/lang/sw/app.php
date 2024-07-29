@@ -722,7 +722,7 @@ return [
         ],
     ],
 
-    'katalogi' => [
+    'catalog' => [
         'products' => [
             'index' => [
                 'already-taken' => 'Jina :tayari limechukuliwa.',
@@ -2097,7 +2097,7 @@ return [
                 'delete-success' => 'Kanuni ya gari Imefutwa kwa Mafanikio',
             ],
 
-            'katalogi-kanuni' => [
+            'catalog-rules' => [
                 'index' => [
                     'create-btn' => 'Tengeneza Kanuni ya Katalogi',
                     'title' => 'Kanuni za katalogi',
@@ -2552,7 +2552,7 @@ return [
                     'download-sample' => 'Pakua Sampuli',
                     'field-separator' => 'Kitenganishi cha Shamba',
                     'file' => 'Faili',
-                    'file-info' => 'Tumia njia linganishi kwa /project-root/storage/app/import, km picha za bidhaa, import-images.',
+                    'file-info' => 'Tumia njia linganishi kwa /project-root/storage/app/import, e.g. picha za bidhaa, import-images.',
                     'file-info-example' => 'Kwa mfano, katika kesi ya picha za bidhaa, mafaili yanapaswa kuwekwa kwenye /project-root/storage/app/import/product-images folder.',
                     'general' => 'Jumla',
                     'images-directory' => 'Njia ya Saraka ya Picha',
@@ -3272,7 +3272,7 @@ return [
             ],
         ],
 
-        'bidhaa' => [
+        'products' => [
             'index' => [
                 'all-channels' => 'Njia zote',
                 'channel' => 'Chaneli',
@@ -3463,11 +3463,11 @@ return [
                 ],
             ],
 
-            'katalogi' => [
+            'catalog' => [
                 'info' => 'Katalogi',
                 'title' => 'Katalogi',
 
-                'bidhaa' => [
+                'products' => [
                     'info' => 'Weka malipo ya wageni, ukurasa wa mwonekano wa bidhaa, ukurasa wa mkokoteni, mbele ya duka, hakiki na sifa ushiriki wa kijamii.',
                     'title' => 'Bidhaa',
 
@@ -3591,7 +3591,7 @@ return [
                     'info' => 'Weka bidhaa na kategoria.',
                     'title' => 'Vijisehemu Tajiri',
 
-                    'bidhaa' => [
+                    'products' => [
                         'wezesha' => 'Washa',
                         'show-categories' => 'Onyesha Kategoria',
                         'show-images' => 'Onyesha Picha',
@@ -4201,7 +4201,7 @@ return [
             ],
         ],
 
-        'bidhaa' => [
+        'products' => [
             'tafuta' => [
                 'add-btn' => 'Ongeza Bidhaa Iliyochaguliwa',
                 'empty-info' => 'Hakuna bidhaa zinazopatikana kwa neno la utafutaji.',
