@@ -11,7 +11,7 @@ return [
         ],
 
         'forget-password' => [
-            'tengeneza' => [
+            'create' => [
                 'email' => 'Barua pepe Iliyosajiliwa',
                 'email-not-exist' => 'Barua pepe Haipo',
                 'page-title' => 'Sahau Nenosiri',
@@ -204,12 +204,12 @@ return [
                     ],
                 ],
 
-                'gari' => [
+                'cart' => [
                     'success-add-to-cart' => 'Bidhaa imeongezwa kwenye mkokoteni kwa mafanikio',
                     'success-remove' => 'Kipengee kimeondolewa kwenye mkokoteni kwa mafanikio',
                     'success-update' => 'Kipengee cha mkokoteni kimesasishwa kwa mafanikio',
 
-                    'vitu' => [
+                    'items' => [
                         'add-product' => 'Ongeza Bidhaa',
                         'amount-per-unit' => ':kiasi Kwa Kila Kitengo x :Kiasi cha Qty',
                         'delete' => 'Futa',
@@ -222,7 +222,7 @@ return [
                         'sub-total' => 'Jumla ndogo - :jumla_ndogo',
                         'title' => 'Vitu vya gari',
 
-                        'tafuta' => [
+                        'search' => [
                             'add-to-cart' => 'Ongeza kwenye Mkokoteni',
                             'available-qty' => ':qty Inapatikana',
                             'empty-info' => 'Hakuna bidhaa zinazopatikana kwa neno la utafutaji.',
@@ -234,7 +234,7 @@ return [
                         ],
                     ],
 
-                    'anwani' => [
+                    'address' => [
                         'add-btn' => 'Ongeza Anwani',
                         'add-new' => 'Ongeza anwani mpya',
                         'add-new-address' => 'Ongeza anwani mpya',
@@ -264,7 +264,7 @@ return [
                         'vat-id' => 'Kitambulisho cha Vat',
                     ],
 
-                    'malipo' => [
+                    'payment' => [
                         'title' => 'Malipo',
                     ],
 
@@ -272,7 +272,7 @@ return [
                         'title' => 'Usafirishaji',
                     ],
 
-                    'muhtasari' => [
+                    'summary' => [
                         'apply-coupon' => 'Weka kuponi',
                         'discount-amount' => 'Kiasi cha punguzo',
                         'enter-your-code' => 'Ingiza msimbo wako',
@@ -290,7 +290,7 @@ return [
                     ],
                 ],
 
-                'vitu vya mkokoteni' => [
+                'cart-items' => [
                     'add-to-cart' => 'Ongeza kwenye Mkokoteni',
                     'delete' => 'Futa',
                     'empty-description' => 'Hakuna vitu vilivyopatikana kwenye gari lako.',
@@ -301,7 +301,7 @@ return [
                     'title' => 'Vitu vya gari',
                 ],
 
-                'vitu vya kuagiza hivi karibuni' => [
+                'recent-order-items' => [
                     'add-to-cart' => 'Ongeza kwenye Mkokoteni',
                     'empty-description' => 'Hakuna vitu vilivyopatikana katika maagizo yako ya hivi majuzi.',
                     'empty-title' => 'Agizo tupu',
@@ -331,7 +331,7 @@ return [
                 ],
             ],
 
-            'tazama' => [
+            'view' => [
                 'amount-per-unit' => ':kiasi Kwa Kila Kitengo x :Kiasi cha Qty',
                 'billing-address' => 'Anwani ya bili',
                 'cancel-msg' => 'Je, una uhakika unataka kughairi agizo hili',
@@ -414,7 +414,7 @@ return [
             ],
         ],
 
-        'shehena' => [
+        'shipments' => [
             'index' => [
                 'title' => 'Usafirishaji',
 
@@ -430,7 +430,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'amount-per-unit' => ':kiasi Kwa Kila Kitengo x :Kiasi cha Qty',
                 'cancel-error' => 'Agizo lisighairiwe',
                 'carrier-name' => 'Jina la Mtoa huduma',
@@ -453,7 +453,7 @@ return [
                 'tracking-number' => 'Nambari ya ufuatiliaji',
             ],
 
-            'tazama' => [
+            'view' => [
                 'billing-address' => 'Anwani ya bili',
                 'carrier-title' => 'Jina la Mtoa huduma',
                 'channel' => 'Chaneli',
@@ -479,9 +479,9 @@ return [
             ],
         ],
 
-        'refund' => [
+        'refunds' => [
             'index' => [
-                'title' => 'Rejesha pesa',
+                'title' => 'Rejeshewa pesa',
 
                 'datagrid' => [
                     'billed-to' => 'Inatozwa',
@@ -493,7 +493,7 @@ return [
                 ],
             ],
 
-            'tazama' => [
+            'view' => [
                 'account-information' => 'Taarifa za Akaunti',
                 'adjustment-fee' => 'Ada ya Marekebisho',
                 'adjustment-refund' => 'Rejesha pesa za Marekebisho',
@@ -533,7 +533,7 @@ return [
                 'title' => 'Rejesha #:refund_id',
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'adjustment-fee' => 'Ada ya Marekebisho',
                 'adjustment-refund' => 'Rejesha pesa za Marekebisho',
                 'amount-per-unit' => ':kiasi Kwa Kila Kitengo x :Kiasi cha Qty',
@@ -579,7 +579,7 @@ return [
                 ],
             ],
 
-            'tazama' => [
+            'view' => [
                 'amount-per-unit' => ':kiasi Kwa Kila Kitengo x :Kiasi cha Qty',
                 'channel' => 'Chaneli',
                 'customer-email' => 'Barua pepe - :barua pepe',
@@ -619,7 +619,7 @@ return [
                 'title' => 'Invoice #:kitambulisho_cha_ ankara',
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'amount-per-unit' => ':kiasi Kwa Kila Kitengo x :Kiasi cha Qty',
                 'create-invoice' => 'Tengeneza ankara',
                 'create-success' => 'Ankara imeundwa kwa mafanikio',
@@ -693,7 +693,7 @@ return [
                     'view' => 'Tazama',
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'already-paid' => 'Tayari kulipwa',
                     'kiasi' => 'Kiasi',
                     'create-transaction' => 'Tengeneza Muamala',
@@ -706,7 +706,7 @@ return [
                     'transaction-saved' => 'Muamala umehifadhiwa kwa ufanisi.',
                 ],
 
-                'tazama' => [
+                'view' => [
                     'kiasi' => 'Kiasi',
                     'created-at' => 'Imeundwa Saa',
                     'invoice-id' => 'Kitambulisho cha ankara',
@@ -723,13 +723,13 @@ return [
     ],
 
     'katalogi' => [
-        'bidhaa' => [
+        'products' => [
             'index' => [
                 'already-taken' => 'Jina :tayari limechukuliwa.',
                 'create-btn' => 'Tengeneza Bidhaa',
                 'title' => 'Bidhaa',
 
-                'tengeneza' => [
+                'create' => [
                     'back-btn' => 'Nyuma',
                     'configurable-attributes' => 'Sifa zinazoweza kusanidiwa',
                     'create-btn' => 'Tengeneza Bidhaa',
@@ -769,13 +769,13 @@ return [
                 ],
             ],
 
-            'hariri' => [
+            'edit' => [
                 'preview' => 'Onyesho awali',
                 'remove' => 'Ondoa',
                 'save-btn' => 'Hifadhi Bidhaa',
                 'title' => 'Hariri Bidhaa',
 
-                'chaneli' => [
+                'channels' => [
                     'title' => 'Vituo',
                 ],
 
@@ -790,7 +790,7 @@ return [
                         'fixed-group-price-info' => 'Kwa :qty Ukubwa kwa bei isiyobadilika ya :bei',
                         'title' => 'Bei ya Kikundi cha Wateja',
 
-                        'tengeneza' => [
+                        'create' => [
                             'all-groups' => 'Vikundi vyote',
                             'create-title' => 'Tengeneza Bei ya Kikundi cha Wateja',
                             'customer-group' => 'Kikundi cha Wateja',
@@ -828,7 +828,7 @@ return [
                 ],
 
                 'viungo' => [
-                    'related-bidhaa' => [
+                    'related-products' => [
                         'empty-info' => 'Ongeza bidhaa zinazohusiana popote ulipo.',
                         'info' => 'Mbali na bidhaa mteja anatazama, zinawasilishwa na bidhaa zinazohusiana.',
                         'title' => 'Bidhaa Zinazohusiana',
@@ -867,7 +867,7 @@ return [
                         'sku' => 'SKU - :sku',
                         'title' => 'Tofauti',
 
-                        'tengeneza' => [
+                        'create' => [
                             'description' => 'Maelezo',
                             'name' => 'Jina',
                             'save-btn' => 'Ongeza',
@@ -875,7 +875,7 @@ return [
                             'variant-already-exists' => 'Lahaja hii tayari ipo',
                         ],
 
-                        'hariri' => [
+                        'edit' => [
                             'disabled' => 'Walemavu',
                             'edit-info' => 'Kama unataka kusasisha taarifa za bidhaa kwa undani, basi nenda kwenye',
                             'edit-link-title' => 'Ukurasa wa Maelezo ya Bidhaa',
@@ -1077,7 +1077,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'add-attribute-options' => 'Ongeza Chaguzi za Sifa',
                 'add-option' => 'Ongeza Chaguo',
                 'add-options-info' => 'Kuunda mchanganyiko mbalimbali wa Chaguo la Sifa popote ulipo.',
@@ -1142,7 +1142,7 @@ return [
                 ],
             ],
 
-            'hariri' => [
+            'edit' => [
                 'add-attribute-options' => 'Ongeza Chaguzi za Sifa',
                 'add-option' => 'Ongeza Chaguo',
                 'add-options-info' => 'Kuunda mchanganyiko mbalimbali wa Chaguo la Sifa popote ulipo.',
@@ -1234,7 +1234,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'add-banner' => 'Ongeza Bango',
                 'add-logo' => 'Ongeza Nembo',
                 'back-btn' => 'Nyuma',
@@ -1266,7 +1266,7 @@ return [
                 'visible-in-menu' => 'Inaonekana katika Menyu',
             ],
 
-            'hariri' => [
+            'edit' => [
                 'add-banner' => 'Ongeza Bango',
                 'add-logo' => 'Ongeza Nembo',
                 'back-btn' => 'Nyuma',
@@ -1306,7 +1306,7 @@ return [
             'update-success' => 'kitengo kimesasishwa kwa mafanikio.',
         ],
 
-        'familia' => [
+        'families' => [
             'index' => [
                 'add' => 'Unda Familia ya Sifa',
                 'title' => 'Familia',
@@ -1325,7 +1325,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'add-group-btn' => 'Ongeza Kikundi',
                 'add-group-title' => 'Ongeza Kikundi Kipya',
                 'back-btn' => 'Nyuma',
@@ -1352,7 +1352,7 @@ return [
                 'unassigned-attributes-info' => 'Buruta sifa hizi ili kuongeza kwenye safu au vikundi.',
             ],
 
-            'hariri' => [
+            'edit' => [
                 'add-group-btn' => 'Ongeza Kikundi',
                 'add-group-title' => 'Ongeza Kikundi Kipya',
                 'back-btn' => 'Nyuma',
@@ -1391,7 +1391,7 @@ return [
         ],
     ],
 
-    'wateja' => [
+    'customers' => [
         'wateja' => [
             'index' => [
                 'title' => 'Wateja',
@@ -1424,7 +1424,7 @@ return [
                     'update-success' => 'Wateja waliochaguliwa wamesasishwa kwa ufanisi',
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'contact-number' => 'Nambari ya Mawasiliano',
                     'create-btn' => 'Unda Mteja',
                     'create-success' => 'Mteja ameundwa kwa mafanikio',
@@ -1444,7 +1444,7 @@ return [
                 ],
             ],
 
-            'tazama' => [
+            'view' => [
                 'account-delete-confirmation' => 'Je, una uhakika unataka kufuta akaunti hii?',
                 'active' => 'Inatumika',
                 'address-delete-confirmation' => 'Je, una uhakika unataka kufuta anwani hii?',
@@ -1472,7 +1472,7 @@ return [
                 'anwani' => [
                     'count' => 'Anwani (:hesabu)',
 
-                    'tengeneza' => [
+                    'create' => [
                         'city' => 'Jiji',
                         'company-name' => 'Jina la Kampuni',
                         'country' => 'Nchi',
@@ -1492,7 +1492,7 @@ return [
                         'vat-id' => 'Kitambulisho cha Vat',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'city' => 'Jiji',
                         'company-name' => 'Jina la Kampuni',
                         'country' => 'Nchi',
@@ -1566,7 +1566,7 @@ return [
                     ],
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'contact-number' => 'Nambari ya Mawasiliano',
                     'customer-group' => 'Kikundi cha Wateja',
                     'date-of-birth' => 'Tarehe ya Kuzaliwa',
@@ -1635,7 +1635,7 @@ return [
             'index' => [
                 'title' => 'Vikundi',
 
-                'tengeneza' => [
+                'create' => [
                     'code' => 'Msimbo',
                     'create-btn' => 'Unda Kikundi',
                     'name' => 'Jina',
@@ -1644,7 +1644,7 @@ return [
                     'title' => 'Unda Kikundi kipya',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'delete-failed' => 'Kikundi Kimefutwa',
                     'delete-success' => 'Kikundi Kimefutwa kwa Mafanikio',
                     'group-default' => 'Kikundi chaguo-msingi hakiwezi kufutwa',
@@ -1673,7 +1673,7 @@ return [
                 'status' => 'Hali',
                 'title' => 'Mapitio',
 
-                'hariri' => [
+                'edit' => [
                     'approved' => 'Imeidhinishwa',
                     'customer' => 'Mteja',
                     'date' => 'Tarehe',
@@ -1733,7 +1733,7 @@ return [
                     ],
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'active' => 'Inatumika',
                     'back-btn' => 'Nyuma',
                     'content' => 'Maudhui',
@@ -1748,7 +1748,7 @@ return [
                     'title' => 'Tengeneza Kiolezo',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'active' => 'Inatumika',
                     'back-btn' => 'Nyuma',
                     'content' => 'Maudhui',
@@ -1784,7 +1784,7 @@ return [
                     ],
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'active' => 'Inatumika',
                     'back-btn' => 'Nyuma',
                     'channel' => 'Chaneli',
@@ -1806,7 +1806,7 @@ return [
                     'title' => 'Tengeneza Kampeni',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'active' => 'Inatumika',
                     'audience' => 'Hadhira',
                     'back-btn' => 'Nyuma',
@@ -1848,7 +1848,7 @@ return [
                         'name' => 'Jina',
                     ],
 
-                    'tengeneza' => [
+                    'create' => [
                         'date' => 'Tarehe',
                         'delete-warning' => 'Je, una uhakika, unataka kufanya kitendo hiki?',
                         'description' => 'Maelezo',
@@ -1859,7 +1859,7 @@ return [
                         'title' => 'Tengeneza Matukio',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'success' => 'Matukio Yamesasishwa Kwa Mafanikio',
                         'title' => 'Hariri Matukio',
                     ],
@@ -1885,7 +1885,7 @@ return [
                         'kweli' => 'Kweli',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'back-btn' => 'Nyuma',
                         'email' => 'Barua pepe',
                         'false' => 'Siyo',
@@ -1933,7 +1933,7 @@ return [
                     ],
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'action-type' => 'Aina ya kitendo',
                     'actions' => 'Vitendo',
                     'add-condition' => 'Ongeza Hali',
@@ -2008,7 +2008,7 @@ return [
                     'ndiyo' => 'Ndiyo',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'action-type' => 'Aina ya kitendo',
                     'actions' => 'Vitendo',
                     'add-condition' => 'Ongeza Hali',
@@ -2116,7 +2116,7 @@ return [
                     ],
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'action-type' => 'Aina ya kitendo',
                     'actions' => 'Vitendo',
                     'add-condition' => 'Ongeza Hali',
@@ -2159,7 +2159,7 @@ return [
                     'ndiyo' => 'Ndiyo',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'action-type' => 'Aina ya kitendo',
                     'actions' => 'Vitendo',
                     'add-condition' => 'Ongeza Hali',
@@ -2206,7 +2206,7 @@ return [
                 'update-success' => 'Kanuni ya katalogi imesasishwa kwa mafanikio',
             ],
 
-            'kanuni-kanuni za mkokoteni' => [
+            'cart-rules-coupons' => [
                 'cart-rule-not-defined-error' => 'Kanuni ya mkokoteni haiwezi kufutwa',
                 'delete-success' => 'Kuponi ya Kanuni ya Mkokoteni Imefutwa kwa Mafanikio',
                 'mass-delete-success' => 'Vipengee vilivyochaguliwa Futa kwa Mafanikio',
@@ -2243,7 +2243,7 @@ return [
                         'actions' => 'Vitendo',
                     ],
 
-                    'tengeneza' => [
+                    'create' => [
                         'channel' => 'Chaneli',
                         'delete-warning' => 'Je, una uhakika, unataka kufanya kitendo hiki?',
                         'locale' => 'Mahali',
@@ -2256,7 +2256,7 @@ return [
                         'uses' => 'Matumizi',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'delete-success' => 'Neno la Utafutaji limefutwa kwa mafanikio',
                         'success' => 'Neno la Utafutaji limesasishwa kwa mafanikio',
                         'title' => 'Hariri Neno la Utafutaji',
@@ -2279,7 +2279,7 @@ return [
                         'terms' => 'Masharti',
                     ],
 
-                    'tengeneza' => [
+                    'create' => [
                         'delete-warning' => 'Je, una uhakika, unataka kufanya kitendo hiki?',
                         'name' => 'Jina',
                         'save-btn' => 'Hifadhi Kisawe cha Utafutaji',
@@ -2289,7 +2289,7 @@ return [
                         'title' => 'Tengeneza Kisawe cha Utafutaji',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'delete-success' => 'Sinonimia ya Utafutaji imefutwa kwa mafanikio',
                         'success' => 'Sinonimia ya utafutaji imesasishwa kwa mafanikio',
                         'title' => 'Hariri Kisawe cha Utafutaji',
@@ -2313,7 +2313,7 @@ return [
                         'path' => 'Njia',
                     ],
 
-                    'tengeneza' => [
+                    'create' => [
                         'delete-warning' => 'Je, una uhakika, unataka kufanya kitendo hiki?',
                         'file-name' => 'Jina la faili',
                         'file-name-info' => 'Mfano: sitemap.xml',
@@ -2324,14 +2324,14 @@ return [
                         'title' => 'Tengeneza Ramani ya tovuti',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'delete-success' => 'Ramani ya tovuti Imefutwa kwa mafanikio',
                         'success' => 'Ramani ya tovuti Imesasishwa kwa mafanikio',
                         'title' => 'Hariri Ramani ya tovuti',
                     ],
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'back-btn' => 'Nyuma',
                     'file-name' => 'Jina la faili',
                     'file-name-info' => 'Mfano: sitemap.xml',
@@ -2367,7 +2367,7 @@ return [
                         'temporary-redirect' => 'Muda (302)',
                     ],
 
-                    'tengeneza' => [
+                    'create' => [
                         'category' => 'Kategoria',
                         'cms-page' => 'Ukurasa wa CMS',
                         'delete-warning' => 'Je, una uhakika, unataka kufanya kitendo hiki?',
@@ -2384,7 +2384,7 @@ return [
                         'title' => 'Tengeneza URL Andika upya',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'delete-success' => 'Uandishi upya wa URL umefutwa kwa mafanikio',
                         'success' => 'Andika upya URL imesasishwa kwa mafanikio',
                         'title' => 'Hariri Andika Upya URL',
@@ -2414,7 +2414,7 @@ return [
             ],
         ],
 
-        'tengeneza' => [
+        'create' => [
             'channels' => 'Vituo',
             'content' => 'Maudhui',
             'description' => 'Maelezo',
@@ -2429,7 +2429,7 @@ return [
             'url-key' => 'Ufunguo wa URL',
         ],
 
-        'hariri' => [
+        'edit' => [
             'back-btn' => 'Nyuma',
             'channels' => 'Vituo',
             'content' => 'Maudhui',
@@ -2472,7 +2472,7 @@ return [
                     'rtl' => 'RTL',
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'code' => 'Msimbo',
                     'direction' => 'Mwelekeo',
                     'locale-logo' => 'Nembo ya eneo',
@@ -2482,7 +2482,7 @@ return [
                     'title' => 'Tengeneza Eneo',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'title' => 'Hariri Maeneo',
                 ],
 
@@ -2514,7 +2514,7 @@ return [
                     'update-success' => 'Rasilimali iliyochaguliwa imesasishwa kwa ufanisi',
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'code' => 'Msimbo',
                     'create-btn' => 'Tengeneza Sarafu',
                     'currency-position' => 'Nafasi ya Sarafu',
@@ -2529,7 +2529,7 @@ return [
                     'title' => 'Tengeneza Sarafu Mpya',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'title' => 'Hariri Sarafu',
                 ],
 
@@ -2543,7 +2543,7 @@ return [
 
         'data-transfer' => [
             'imports' => [
-                'tengeneza' => [
+                'create' => [
                     'action' => 'Kitendo',
                     'allowed-errors' => 'Makosa yanayoruhusiwa',
                     'back-btn' => 'Nyuma',
@@ -2567,7 +2567,7 @@ return [
                     'validation-strategy' => 'Mkakati wa Uthibitishaji',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'action' => 'Kitendo',
                     'allowed-errors' => 'Makosa yanayoruhusiwa',
                     'back-btn' => 'Nyuma',
@@ -2654,7 +2654,7 @@ return [
                 'title' => 'Viwango vya Ubadilishanaji',
                 'update-rates' => 'Sasisha Kiwango cha ubadilishaji',
 
-                'tengeneza' => [
+                'create' => [
                     'delete-warning' => 'Je, una uhakika, unataka kufanya kitendo hiki?',
                     'rate' => 'Kadiria',
                     'save-btn' => 'Hifadhi Kiwango cha ubadilishaji',
@@ -2664,7 +2664,7 @@ return [
                     'title' => 'Tengeneza Kiwango cha ubadilishaji',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'title' => 'Hariri Viwango vya kubadilisha fedha',
                 ],
 
@@ -2684,7 +2684,7 @@ return [
             ],
         ],
 
-        'hesabu-vyanzo' => [
+        'inventory-sources' => [
             'index' => [
                 'create-btn' => 'Tengeneza Chanzo cha Malipo',
                 'title' => 'Vyanzo vya Malipo',
@@ -2702,7 +2702,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'add-title' => 'Ongeza Chanzo cha Malipo',
                 'address' => 'Anwani ya chanzo',
                 'back-btn' => 'Nyuma',
@@ -2731,7 +2731,7 @@ return [
                 'title' => 'Vyanzo vya Malipo',
             ],
 
-            'hariri' => [
+            'edit' => [
                 'back-btn' => 'Nyuma',
                 'city' => 'Jiji',
                 'code' => 'Msimbo',
@@ -2766,7 +2766,7 @@ return [
             'update-success' => 'Vyanzo vya Mali Vilisasishwa Kwa Mafanikio',
         ],
 
-        'kodi' => [
+        'taxes' => [
             'categories' => [
                 'index' => [
                     'delete-warning' => 'Je, una uhakika unataka kufuta?',
@@ -2782,7 +2782,7 @@ return [
                         'name' => 'Jina',
                     ],
 
-                    'tengeneza' => [
+                    'create' => [
                         'add-tax-rates' => 'Ongeza Viwango vya Ushuru',
                         'code' => 'Msimbo',
                         'description' => 'Maelezo',
@@ -2795,7 +2795,7 @@ return [
                         'title' => 'Unda Kitengo cha Ushuru',
                     ],
 
-                    'hariri' => [
+                    'edit' => [
                         'title' => 'Hariri Kategoria za Ushuru',
                     ],
 
@@ -2826,7 +2826,7 @@ return [
                     ],
                 ],
 
-                'tengeneza' => [
+                'create' => [
                     'back-btn' => 'Nyuma',
                     'country' => 'Nchi',
                     'general' => 'Jumla',
@@ -2844,7 +2844,7 @@ return [
                     'zip-to' => 'Zip Kwa',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'back-btn' => 'Nyuma',
                     'country' => 'Nchi',
                     'identifier' => 'Kitambulisho',
@@ -2867,10 +2867,10 @@ return [
             ],
         ],
 
-        'chaneli' => [
+        'channels' => [
             'index' => [
                 'create-btn' => 'Tengeneza Idhaa',
-                'delete-failed' => 'Imeshindwa Kufuta Chaneli',
+                'delete-failed' => 'Imeshindwa Kufuta channels',
                 'delete-success' => 'Chaneli imefutwa kwa mafanikio.',
                 'last-delete-error' => 'Mkondo wa mwisho kufutwa haukufaulu.',
                 'title' => 'Vituo',
@@ -2885,7 +2885,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'allowed-ips' => 'IPs zinazoruhusiwa',
                 'cancel' => 'Nyuma',
                 'code' => 'Msimbo',
@@ -2924,7 +2924,7 @@ return [
                 'title' => 'Tengeneza Idhaa',
             ],
 
-            'hariri' => [
+            'edit' => [
                 'allowed-ips' => 'IPs zinazoruhusiwa',
                 'back-btn' => 'Nyuma',
                 'code' => 'Msimbo',
@@ -2966,7 +2966,7 @@ return [
                 'title' => 'Watumiaji',
                 'user' => 'Mtumiaji',
 
-                'tengeneza' => [
+                'create' => [
                     'confirm-password' => 'Thibitisha Nenosiri',
                     'email' => 'Barua pepe',
                     'name' => 'Jina',
@@ -2991,12 +2991,12 @@ return [
                     'status' => 'Hali',
                 ],
 
-                'hariri' => [
+                'edit' => [
                     'title' => 'Hariri Mtumiaji',
                 ],
             ],
 
-            'hariri' => [
+            'edit' => [
                 'back-btn' => 'Nyuma',
                 'confirm-password' => 'Thibitisha Nenosiri',
                 'email' => 'Barua pepe',
@@ -3037,7 +3037,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'access-control' => 'Udhibiti wa ufikiaji',
                 'wote' => 'Wote',
                 'back-btn' => 'Nyuma',
@@ -3050,7 +3050,7 @@ return [
                 'title' => 'Tengeneza Jukumu',
             ],
 
-            'hariri' => [
+            'edit' => [
                 'access-control' => 'Udhibiti wa ufikiaji',
                 'wote' => 'Wote',
                 'back-btn' => 'Nyuma',
@@ -3091,7 +3091,7 @@ return [
                 ],
             ],
 
-            'tengeneza' => [
+            'create' => [
                 'name' => 'Jina',
                 'save-btn' => 'Hifadhi Mandhari',
                 'sort-order' => 'Panga Agizo',
@@ -3109,7 +3109,7 @@ return [
                 ],
             ],
 
-            'hariri' => [
+            'edit' => [
                 'active' => 'Inatumika',
                 'add-filter-btn' => 'Ongeza Kichujio',
                 'add-footer-link-btn' => 'Ongeza Kiungo cha Kichini',
@@ -3243,7 +3243,7 @@ return [
             ],
         ],
 
-        'wateja' => [
+        'customers' => [
             'index' => [
                 'all-channels' => 'Njia zote',
                 'count' => 'Hesabu',
@@ -3307,7 +3307,7 @@ return [
             ],
         ],
 
-        'tazama' => [
+        'view' => [
             'all-channels' => 'Njia zote',
             'day' => 'Siku',
             'end-date' => 'Tarehe ya mwisho',
@@ -3936,7 +3936,7 @@ return [
                     ],
                 ],
 
-                'kodi' => [
+                'taxes' => [
                     'title' => 'Kodi',
                     'title-info' => 'Kodi ni ada za lazima zinazowekwa na serikali kwa bidhaa, huduma, au miamala, zinazokusanywa na wauzaji na kutumwa kwa mamlaka.',
 
@@ -3969,7 +3969,7 @@ return [
                         'title-info' => 'Uamuzi otomatiki wa kiwango au marudio ya awali kulingana na vipengele au mipangilio iliyoainishwa.',
                     ],
 
-                    'mkokoteni' => [
+                    'shopping-cart' => [
                         'title' => 'Mipangilio ya Maonyesho ya Gari la Kununulia',
                         'title-info' => 'Weka onyesho la kodi katika kikasha cha ununuzi',
                         'display-prices' => 'Onyesho la bei',
@@ -3996,7 +3996,7 @@ return [
                     'title' => 'Lipa',
                     'info' => 'Washa au Lemaza Mkokoteni Ndogo, Muhtasari wa kikokoteni.',
 
-                    'mkokoteni' => [
+                    'shopping-cart' => [
                         'cart-page' => 'Ukurasa wa gari',
                         'cart-page-info' => 'Dhibiti mwonekano wa Ukurasa wa Gari ili kuboresha uzoefu wa ununuzi wa mtumiaji.',
                         'cross-sell' => 'Uza bidhaa tofauti',
@@ -4009,7 +4009,7 @@ return [
                         'title' => 'Kigari',
                     ],
 
-                    'mkokoteni wangu' => [
+                    'my-cart' => [
                         'display-item-quantities' => 'Onyesha idadi ya vitu',
                         'display-number-in-cart' => 'Onyesha idadi ya vitu kwenye mkokoteni',
                         'info' => 'Wezesha mipangilio kwa ajili ya Rukwama Yangu kuonyesha muhtasari wa kiasi cha bidhaa na kuonyesha jumla ya idadi ya vitu kwenye toroli kwa ufuatiliaji rahisi.',
@@ -4186,7 +4186,7 @@ return [
                 ],
             ],
 
-            'meza' => [
+            'table' => [
                 'actions' => 'Vitendo',
                 'no-records-available' => 'Hakuna Rekodi Zinazopatikana.',
             ],
@@ -4407,7 +4407,7 @@ return [
             ],
         ],
 
-        'wateja' => [
+        'customers' => [
             'registration' => [
                 'description' => 'Akaunti mpya ya mteja imeundwa kwa ufanisi. Sasa wanaweza kuingia kwa kutumia barua pepe zao na vitambulisho vya nenosiri. Baada ya kuingia, watapata huduma mbalimbali, ikiwa ni pamoja na uwezo wa kukagua maagizo ya awali, kudhibiti orodha za matamanio na kusasisha maelezo ya akaunti zao.',
                 'greeting' => 'Tunawakaribisha kwa furaha mteja mpya, :customer_name ambaye amejisajili nasi hivi punde!',
