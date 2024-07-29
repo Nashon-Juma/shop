@@ -4,7 +4,7 @@ return [
     'users' => [
         'sessions' => [
             'email'                => 'Email Address',
-            'forget-password-link' => 'Forget Password ?',
+            'forget-password-link' => 'Forgot Password ?',
             'password'             => 'Password',
             'submit-btn'           => 'Sign In',
             'title'                => 'Sign In',
@@ -14,7 +14,7 @@ return [
             'create' => [
                 'email'           => 'Registered Email',
                 'email-not-exist' => 'Email Not Exists',
-                'page-title'      => 'Forget Password',
+                'page-title'      => 'Forgot Password',
                 'reset-link-sent' => 'Reset Password link sent',
                 'sign-in-link'    => 'Back to Sign In ?',
                 'submit-btn'      => 'Reset',
