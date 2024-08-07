@@ -966,7 +966,7 @@ return [
             ],
 
             'commented' => [
-                'description' => 'Note Is - :note',
+                'description' => 'Note is - :note',
                 'subject'     => 'New comment Added',
             ],
 
