@@ -2,20 +2,18 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
 </head>
 <!-- Chat bot -->
-<div x-data="{ isOpen: false }" class="fixed bottom-0 right-0 p-4">
+<div x-data="{ isOpen: false }" class="fixed bottom-0 right-0 p-4 z-50">
     <svg class="cursor-pointer" @click="isOpen = !isOpen" width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path
-            d="M22 5C22 6.65685 20.6569 8 19 8C17.3431 8 16 6.65685 16 5C16 3.34315 17.3431 2 19 2C20.6569 2 22 3.34315 22 5Z"
-            fill="#1C274C" />
-        <path opacity="0.5"
-            d="M15.2347 2.53476C14.2201 2.1881 13.132 2 12 2C6.47715 2 2 6.47715 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39938 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88836 21.6244 10.4003 22 12 22C17.5228 22 22 17.5228 22 12C22 10.868 21.8119 9.77987 21.4652 8.76526C20.7572 9.22981 19.9101 9.5 19 9.5C16.5147 9.5 14.5 7.48528 14.5 5C14.5 4.08987 14.7702 3.24284 15.2347 2.53476Z"
-            fill="#1C274C" />
+        <path d="M22 5C22 6.65685 20.6569 8 19 8C17.3431 8 16 6.65685 16 5C16 3.34315 17.3431 2 19 2C20.6569 2 22 3.34315 22 5Z" fill="#1C274C" />
+        <path opacity="0.5" d="M15.2347 2.53476C14.2201 2.1881 13.132 2 12 2C6.47715 2 2 6.47715 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39938 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88836 21.6244 10.4003 22 12 22C17.5228 22 22 17.5228 22 12C22 10.868 21.8119 9.77987 21.4652 8.76526C20.7572 9.22981 19.9101 9.5 19 9.5C16.5147 9.5 14.5 7.48528 14.5 5C14.5 4.08987 14.7702 3.24284 15.2347 2.53476Z" fill="#1C274C" />
     </svg>
-    <div x-show="isOpen" class="absolute bottom-0 right-0 p-4 bg-white shadow-md" style="max-width: 400px; max-height: 340px;">
-      <button class="absolute top-0 right-0 p-2 text-gray-500 hover:text-gray-800" @click="isOpen = false">Close</button>
-      <iframe style="width: 100%; height: 100%;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
+
+    <div x-show="isOpen" x-cloak class="absolute bottom-0 right-0 p-4 bg-white shadow-md rounded-lg overflow-auto z-50" style="width: 90%; max-width: 400px; height: auto; max-height: 340px;">
+        <button class="absolute top-0 right-0 p-2 text-gray-500 hover:text-gray-800" @click="isOpen = false">X</button>
+        <iframe style="width: 100%; height: 100%;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
     </div>
 </div>
+
 {!! view_render_event('bagisto.shop.layout.footer.before') !!}
 
 <!--
