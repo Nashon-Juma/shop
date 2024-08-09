@@ -1,6 +1,7 @@
+<head><script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script></head>
+
 {!! view_render_event('bagisto.shop.layout.footer.before') !!}
 
-<head><script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script></head>
 <!--
     The category repository is injected directly here because there is no way
     to retrieve it from the view composer, as this is an anonymous component.
