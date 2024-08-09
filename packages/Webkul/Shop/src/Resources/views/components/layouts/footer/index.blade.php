@@ -76,11 +76,9 @@
                 @endif
             </x-slot>
         </x-shop::accordion>
-        <iframe
-            class="fixed top-0 left-0 w-[400px] h-[340px]"
-            src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1">
-        </iframe>
-
+        <div class="fixed bottom-0 right-0 p-4">
+            <iframe style="width: 400px; height: 340px;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
+        </div>
               {!! view_render_event('bagisto.shop.layout.footer.newsletter_subscription.before') !!}
 
         <!-- News Letter subscription -->
