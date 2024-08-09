@@ -135,8 +135,8 @@
         </p>
 
         {!! view_render_event('bagisto.shop.layout.footer.footer_text.after') !!}
+        <iframe	style="width: 400px; height: 600px;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
     </div>
-    <iframe	style="width: 400px; height: 600px;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
 </footer>
 
 {!! view_render_event('bagisto.shop.layout.footer.after') !!}
