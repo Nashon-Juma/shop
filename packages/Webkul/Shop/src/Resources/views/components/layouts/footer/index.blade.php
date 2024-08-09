@@ -76,9 +76,22 @@
                 @endif
             </x-slot>
         </x-shop::accordion>
-        <div class="fixed bottom-0 right-0 p-4">
-            <iframe style="width: 400px; height: 340px;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
+        <div x-data="{ open: false }" class="fixed bottom-0 right-0 p-4">
+            <!-- Icon -->
+            <div @click="open = !open" class="cursor-pointer bg-blue-500 text-white p-3 rounded-full">
+                <!-- Example icon, you can replace with any icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 12v.01M4.5 8.11l1.932-.518A6.992 6.992 0 0112 4c2.47 0 4.64 1.24 5.955 3.177l1.932-.518A8.996 8.996 0 003 8.11z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.341A7.992 7.992 0 0112 20c-3.9 0-7.177-2.857-7.937-6.658l1.75-.625c.621 2.682 2.979 4.658 5.866 4.658 2.868 0 5.236-1.976 5.857-4.658l1.75.624z" />
+                </svg>
+            </div>
+
+            <!-- Iframe -->
+            <div x-show="open" x-cloak class="mt-2">
+                <iframe style="width: 400px; height: 340px;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
+            </div>
         </div>
+
               {!! view_render_event('bagisto.shop.layout.footer.newsletter_subscription.before') !!}
 
         <!-- News Letter subscription -->
