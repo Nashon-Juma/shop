@@ -76,8 +76,11 @@
                 @endif
             </x-slot>
         </x-shop::accordion>
-        <iframe	style="width: 400px; height: 340px;" src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1"></iframe>
-        {!! view_render_event('bagisto.shop.layout.footer.newsletter_subscription.before') !!}
+        <iframe
+            class="sticky top-0 w-[400px] h-[340px]"
+            src="https://app.fastbots.ai/embed/clzmnuykj0001r9bg2oiq2fz1">
+        </iframe>
+              {!! view_render_event('bagisto.shop.layout.footer.newsletter_subscription.before') !!}
 
         <!-- News Letter subscription -->
         @if (core()->getConfigData('customer.settings.newsletter.subscription'))
