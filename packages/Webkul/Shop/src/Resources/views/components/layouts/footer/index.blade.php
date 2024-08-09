@@ -75,7 +75,7 @@
                     @endforeach
                 @endif
             </x-slot>
-        </x-shop::accordion>
+        </x-shop::accordion> 
 
         {!! view_render_event('bagisto.shop.layout.footer.newsletter_subscription.before') !!}
 
