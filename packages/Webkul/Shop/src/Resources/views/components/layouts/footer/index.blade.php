@@ -4,7 +4,7 @@
 <!-- Chat bot -->
 <div x-data="{ isOpen: false }" class="fixed bottom-0 right-0 p-4">
     <svg class="cursor-pointer" @click="isOpen = !isOpen">
-        <svg width="800px" height="800px" viewBox="0 0 24 24"
+        <svg width="50px" height="50px" viewBox="0 0 24 24"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M22 5C22 6.65685 20.6569 8 19 8C17.3431 8 16 6.65685 16 5C16 3.34315 17.3431 2 19 2C20.6569 2 22 3.34315 22 5Z"
